@@ -1,8 +1,10 @@
+"""Calculate and display a circle's diameter, circumference, and area."""
+
 radius = int(input("Enter the radius of the circle: "))
-pie = 3.14159
+PIE = 3.14159
 
 diameter = 2 * radius
-circumference = 2 * pie * radius
-area = pie * radius ** 2
+circumference = 2 * PIE * radius
+area = PIE * radius ** 2
 
 print(f"diameter = {diameter}\ncircumference = {circumference}\narea = {area}")

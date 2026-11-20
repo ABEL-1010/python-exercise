@@ -13,7 +13,7 @@
 # Output:
 
 # 2-euros: 2
-# 1-euros: 1
+# 1-euros: 1 
 # 50c-euros: 1  
 # 20c-euros: 1
 # 10c-euros: 1
@@ -22,7 +22,7 @@
 # 1c-euros: 0
 
 money = int(input())
-
+  
 coins = [
     (200, "2-euros"),
     (100, "1-euros"),
